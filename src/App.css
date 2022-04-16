@@ -1,38 +1,107 @@
-.App {
-  text-align: center;
+* {
+    margin: 0px;
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn, .correct-btn, .held-btn {
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 10px;
+    font-family: 'Karla', sans-serif;
+    cursor: pointer;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btn {
+    background-color: antiquewhite;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.correct-btn {
+    background-color: green;
 }
 
-.App-link {
-  color: #61dafb;
+.held-btn {
+    background-color: yellow;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.button-section {
+    display: flex;
+    justify-content: space-around;    
+    padding: 50px;
+    padding-bottom: 10px;
+
+}
+
+.question {
+    padding: 50px;
+    /* padding-top: 100px; */
+    margin-bottom: 50px;
+}
+
+.question-text {
+    font-family: 'Inter', sans-serif;
+}
+
+.start-page {
+    /* padding: 50px; */
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.quizzicle {
+    margin-top: 300px;
+    font-size: 50px;
+    color:cornflowerblue;
+    /* margin-bottom: 50px; */
+}
+
+.start-btn {
+    font-family: 'Inter', sans-serif;
+    background-color:cadetblue;
+    margin-top: 50px;
+    height: 100px;
+    width: 200px;
+    text-align: center;
+    align-content: center;
+    padding: 40px;
+    font-size: 20px;
+    border-radius: 30px;
+    color:white;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.final-btn {
+    background-color: cadetblue;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 50px;
+    padding-top: 15px;
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+    color: white;
+    cursor: pointer;
+}
+
+.score {
+    align-self: center;
+    margin-top: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight:700;
+    font-size: 50px;
+}
+
+.main-content {
+    padding: 50px;
+    padding-top: 100px;
 }
